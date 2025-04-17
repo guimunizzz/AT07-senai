@@ -33,3 +33,5 @@ do {
     }
     contador--;
 } while (contador >= 1)
+    
+console.log("FIM")

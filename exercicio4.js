@@ -21,3 +21,5 @@ do {
     console.log(`Numero é: ${contador}`);
     contador -= 5;
 } while (contador >= 0)
+    
+console.log("FIM")

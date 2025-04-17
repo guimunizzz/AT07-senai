@@ -26,4 +26,5 @@ if (isNaN(intervalo)) {
     console.log(`Numero é: ${contador}`);
     contador++;
   } while (contador <= intervalo);
+  console.log("FIM")
 }

@@ -39,6 +39,7 @@ if (isNaN(primeiroValor && ultimoValor && incremento)) {
       console.log(`Numero é: ${contador}`);
       contador += incremento;
     } while (contador <= ultimoValor);
+    console.log("FIM")
   } else {
     alert("Erro - o ultimo valor precisa ser maior que o primeiro");
   }
