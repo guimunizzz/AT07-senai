@@ -1,27 +1,27 @@
 # Atividade de Lógica - Estruturas de Loop (SENAI)
 Esta atividade contém 7 exercícios para praticar estruturas de repetição (for, while e do while) em JavaScript, desenvolvidos como parte do curso no SENAI.
 
-📋 Exercícios
-Contagem crescente 6-12
+## 📋 Exercícios
+### 1) Contagem crescente 6-12
 Mostra a contagem: 6, 7, 8, 9, 10, 11, 12 e exibe "FIM".
 
-Contagem regressiva 10-1
+### 2) Contagem regressiva 10-1
 Mostra a contagem: 10, 9, 8, ..., 1 e exibe "FIM".
 
-Contagem de 0 a 30 (múltiplos de 3)
+### 3) Contagem de 0 a 30 (múltiplos de 3)
 Mostra: 0, 3, 6, 9, ..., 30 e exibe "FIM".
 
-Contagem regressiva 50-0 (decremento 5)
+### 4) Contagem regressiva 50-0 (decremento 5)
 Mostra: 50, 45, 40, ..., 0 e exibe "FIM".
 
-Contagem personalizada (com entrada do usuário)
+### 5) Contagem personalizada (com entrada do usuário)
 Solicita um número e faz a contagem de 1 até o valor informado.
 
-Contagem regressiva 30-1 (marcando múltiplos de 4)
+### 6) Contagem regressiva 30-1 (marcando múltiplos de 4)
 Mostra a contagem marcando números divisíveis por 4 com colchetes:
 Ex: 30 29 [28] 27 ... [4] 3 2 1
 
-Contagem com parâmetros flexíveis
+### 7) Contagem com parâmetros flexíveis
 Solicita valor inicial, final e incremento, mostrando todos os valores no intervalo.
 (Funciona mesmo quando o início é maior que o fim)
 
