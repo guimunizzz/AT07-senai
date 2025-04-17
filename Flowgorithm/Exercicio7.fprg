@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exercicio7"/>
+        <attribute name="authors" value="DES-MH"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-16 10:09:28 "/>
+        <attribute name="created" value="REVTLU1IO0RFU0tUT1AtOFA3VTVNODsyMDI1LTA0LTE2OyIwOTo1Njo1OSAiOzI2Njg="/>
+        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtOFA3VTVNODsyMDI1LTA0LTE2OyIxMDowOToyOCAiOzE7Mjc2Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="contador, primeiroValor, ultimoValor, incremento" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o primeiro valor do contador:&quot;" newline="True"/>
+            <input variable="primeiroValor"/>
+            <output expression="&quot;Digite o ultimo valor do contador:&quot;" newline="True"/>
+            <input variable="ultimoValor"/>
+            <output expression="&quot;Digite o incremento do contador:&quot;" newline="True"/>
+            <input variable="incremento"/>
+            <assign variable="contador" expression="primeiroValor"/>
+            <if expression="ultimoValor &gt; primeiroValor">
+                <then>
+                    <output expression="&quot;Primeiro valor: &quot; &amp;primeiroValor" newline="True"/>
+                    <output expression="&quot;Ultimo valor: &quot; &amp;ultimoValor" newline="True"/>
+                    <output expression="&quot;Incremento: &quot; &amp;incremento" newline="True"/>
+                    <output expression="&quot;--------------------------------------&quot;" newline="True"/>
+                    <output expression="&quot;Com WHILE:&quot;" newline="True"/>
+                    <while expression="contador &lt;= ultimoValor">
+                        <output expression="&quot;Contagem: &quot; &amp;contador" newline="True"/>
+                        <assign variable="contador" expression="contador + incremento"/>
+                    </while>
+                    <output expression="&quot;--------------------------------------&quot;" newline="True"/>
+                    <output expression="&quot;Com FOR:&quot;" newline="True"/>
+                    <for variable="contador" start="primeiroValor" end="ultimoValor" direction="inc" step="incremento">
+                        <output expression="&quot;Contagem: &quot; &amp;contador" newline="True"/>
+                    </for>
+                    <output expression="&quot;--------------------------------------&quot;" newline="True"/>
+                    <output expression="&quot;Com DoWhile:&quot;" newline="True"/>
+                    <assign variable="contador" expression="primeiroValor"/>
+                    <do expression="contador &lt;= ultimoValor">
+                        <output expression="&quot;Contagem: &quot; &amp;contador" newline="True"/>
+                        <assign variable="contador" expression="contador + incremento"/>
+                    </do>
+                    <output expression="&quot;Fim&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;ERRO - Digite os valores novamente&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
