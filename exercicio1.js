@@ -6,12 +6,14 @@ while (contador <= 12) {
     console.log(`Numero é: ${contador}`);
     contador ++;
 }
+
 console.log("------------------");
 console.log("Com For");
 
 for(contador = 6; contador <=12; contador++) {
     console.log(`Numero é: ${contador}`);
 }
+
 console.log("------------------");
 console.log("Com do-While");
 

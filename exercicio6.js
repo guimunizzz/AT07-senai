@@ -10,6 +10,7 @@ while (contador >= 1) {
     }
     contador --;
 }
+
 console.log("------------------");
 console.log("Com For");
 
@@ -20,6 +21,7 @@ for(contador = 30; contador >= 1; contador--) {
         console.log(`Numero é: ${contador}`);
     }
 }
+
 console.log("------------------");
 console.log("Com do-While");
 
@@ -33,5 +35,5 @@ do {
     }
     contador--;
 } while (contador >= 1)
-    
+
 console.log("FIM")

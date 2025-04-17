@@ -12,6 +12,7 @@ console.log("Com For");
 for(contador = 50; contador >= 0; contador-=5) {
     console.log(`Numero é: ${contador}`);
 }
+
 console.log("------------------");
 console.log("Com do-While");
 
@@ -21,5 +22,5 @@ do {
     console.log(`Numero é: ${contador}`);
     contador -= 5;
 } while (contador >= 0)
-    
+
 console.log("FIM")

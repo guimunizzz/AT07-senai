@@ -23,13 +23,10 @@ if (isNaN(primeiroValor && ultimoValor && incremento)) {
 
     console.log("Com For");
 
-    for (
-      contador = primeiroValor;
-      contador <= ultimoValor;
-      contador += incremento
-    ) {
+    for (contador = primeiroValor;contador <= ultimoValor;contador += incremento) {
       console.log(`Numero é: ${contador}`);
     }
+    
     console.log("------------------");
     console.log("Com do-While");
 
