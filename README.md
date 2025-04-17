@@ -1,4 +1,4 @@
-#Atividade de Lógica - Estruturas de Loop (SENAI)
+# Atividade de Lógica - Estruturas de Loop (SENAI)
 Esta atividade contém 7 exercícios para praticar estruturas de repetição (for, while e do while) em JavaScript, desenvolvidos como parte do curso no SENAI.
 
 📋 Exercícios
