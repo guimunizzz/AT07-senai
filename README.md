@@ -25,14 +25,14 @@ Ex: 30 29 [28] 27 ... [4] 3 2 1
 Solicita valor inicial, final e incremento, mostrando todos os valores no intervalo.
 (Funciona mesmo quando o início é maior que o fim)
 
-🛠 Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas
 JavaScript (para implementação lógica)
 
 HTML (para os exercícios 5 e 7 que requerem interação do usuário)
 
 Flowgorithm (para desenvolvimento dos algoritmos)
 
-🚀 Como Executar
+## 🚀 Como Executar
 Clone este repositório
 
 Abra os arquivos .js para ver os exercícios 1-4 e 6
@@ -43,7 +43,7 @@ Abra o arquivo index.html no navegador
 
 Interaja com os prompts para testar as funcionalidades
 
-📝 Notas
+## 📝 Notas
 Todos os exercícios incluem a mensagem "FIM" ao final da contagem
 
 O exercício 7 foi desenvolvido para funcionar em qualquer situação, inclusive quando o valor inicial é maior que o final
